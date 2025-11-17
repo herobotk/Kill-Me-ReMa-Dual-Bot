@@ -126,5 +126,174 @@ FILTERS = {
                 {"text": "sᴇᴀʀᴄʜ ʜᴇʀᴇ", "url": "https://t.me/movie_talk_Group"}
             ]
         ]
+    },
+
+    # ============================
+    # → Yaha se Future ke Filter start hai.
+    # • uper wale Code ko touch nahi karna hai kabhi, woh code default hai.
+    # ============================
+    # ============== FUTURE-1 ============== 
+    "future1": {
+        "image": None,
+        "text": "",  # ← text bricket me likhna Ex- ("any Text") 
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-2 ==============
+    "future2": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-3 ==============
+    "future3": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-4 ==============
+    "future4": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-5 ==============
+    "future5": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-6 ==============
+    "future6": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-7 ==============
+    "future7": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-8 ==============
+    "future8": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-9 ==============
+    "future9": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-10 ==============
+    "future10": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-11 ==============
+    "future11": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-12 ==============
+    "future12": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-13 ==============
+    "future13": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-14 ==============
+    "future14": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
+    },
+
+    # ============== FUTURE-15 ==============
+    "future15": {
+        "image": None,
+        "text": "",
+        "buttons": [
+            [
+                {"text": "Button Text", "url": "https://example.com"}
+            ]
+        ]
     }
 }
