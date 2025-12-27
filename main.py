@@ -120,7 +120,7 @@ async def kill_me(_, message: Message):
         await message.copy(
     chat_id=message.chat.id,
     caption=caption,
-    parse_mode="HTML"
+    parse_mode=ParseMode.HTML
 )
         await message.delete()
 
@@ -129,7 +129,7 @@ async def kill_me(_, message: Message):
         await message.copy(
     chat_id=message.chat.id,
     caption=caption,
-    parse_mode="HTML"
+    parse_mode=ParseMode.HTML
 )
         await message.delete()
 
