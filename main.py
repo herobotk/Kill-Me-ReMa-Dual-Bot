@@ -53,10 +53,10 @@ def clean_filename(filename: str) -> str:
 def generate_caption(file_name, file_size):
     cleaned = clean_filename(file_name)
     return f"""{cleaned}
-⚙️ Size ~ [{file_size}]
-⚜️ Post by ~ MOVIE TALK
+⚙️ 𝐒𝐢𝐳𝐞 ~ [<b>[{file_size}]</b>]
+⚜️ 𝐏𝐨𝐬𝐭 𝐛𝐲 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊
 
-⚡ Join Us ~ ❤️
+⚡ 𝐉𝐨𝐢𝐧 𝐔𝐬 ~ ❤️
 ➦『 @movie_talk_backup 』"""
 
 
@@ -117,12 +117,20 @@ async def kill_me(_, message: Message):
         caption = clean_filename(caption_orig)
 
     try:
-        await message.copy(chat_id=message.chat.id, caption=caption)
+        await message.copy(
+    chat_id=message.chat.id,
+    caption=caption,
+    parse_mode="HTML"
+)
         await message.delete()
 
     except FloodWait as e:
         await asyncio.sleep(e.value)
-        await message.copy(chat_id=message.chat.id, caption=caption)
+        await message.copy(
+    chat_id=message.chat.id,
+    caption=caption,
+    parse_mode="HTML"
+)
         await message.delete()
 
 
