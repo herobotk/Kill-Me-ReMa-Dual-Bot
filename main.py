@@ -54,7 +54,7 @@ def clean_filename(filename: str) -> str:
 def generate_caption(file_name, file_size):
     cleaned = clean_filename(file_name)
     return f"""{cleaned}
-⚙️ 𝐒𝐢𝐳𝐞 ~ [<b>[{file_size}]</b>]
+⚙️ 𝐒𝐢𝐳𝐞 ~ <b>[{file_size}]</b>
 ⚜️ 𝐏𝐨𝐬𝐭 𝐛𝐲 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊
 
 ⚡ 𝐉𝐨𝐢𝐧 𝐔𝐬 ~ ❤️
